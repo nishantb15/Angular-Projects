@@ -1,4 +1,4 @@
 node_modules
 /.angular/cache
 dist
-/src/app/auth/auth.service.ts
+/src/environments
