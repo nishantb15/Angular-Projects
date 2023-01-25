@@ -11,7 +11,7 @@ import { AuthComponent } from "./auth.component";
     CommonModule,
     FormsModule,
     SharedModule,  // for the Loading-Spinner, though even without this it works for some reason. Didn't work for Max
-    RouterModule.forChild([{ path: 'auth', component: AuthComponent }])
+    RouterModule.forChild([{ path: '', component: AuthComponent }])
   ]
 })
 export class AuthModule {}
